@@ -1,0 +1,111 @@
+body{
+    background-color:#011F3F;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    color: #FEF2BF;
+    font-size: 45px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 300;   
+    text-align: center;
+    margin: 70px;
+    width: 100%;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20%;
+    outline:none;
+    box-shadow: 5px 7px;
+} 
+.btn:active{
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);     
+}
+.btn:focus{
+    box-shadow: none;
+}
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color:darkred;
+}
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    background-color: darkblue;
+}
+.green{
+    background-color: green;
+}
+.green:hover{
+    background-color: darkgreen;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    background-color:#999900;
+}
+
+
+.container-fluid{
+    text-align:center;
+}
+
+.dropbtn{
+    background-color: rgb(30, 218, 224);
+    color:rgb(2, 80, 80);
+    font-size: 16px;
+    border:none;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 20px;
+    outline: none;
+}
+.dropbtn:hover{
+    background-color: rgb(18, 121, 124) ;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    background-color: #f1f1f1;
+    position: absolute;
+    z-index: 1;
+    min-width: 155px;
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(18, 121, 124);
+    color: white;
+}
+
+ .show
+{
+    display: none;  
+} 
